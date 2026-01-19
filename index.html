@@ -3,79 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
     <title>Privacy Policy - World English Bible</title>
     <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
         }
-        h1 { 
-            color: #2c3e50; 
-            border-bottom: 2px solid #eee;
-            padding-bottom: 10px;
-        }
-        h2 { 
-            color: #34495e; 
-            margin-top: 30px;
-        }
-        p, ul { color: #555; }
-        a { color: #2980b9; text-decoration: none; }
-        a:hover { text-decoration: underline; }
         .container {
-            background-color: #f9f9f9;
-            padding: 20px;
-            border-radius: 5px;
-            margin: 20px 0;
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
         }
-        .highlight {
-            background-color: #ffffcc;
-            padding: 2px 5px;
-            border-radius: 3px;
+        .header {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            color: white;
+            padding: 40px;
+            text-align: center;
         }
-        footer {
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid #eee;
+        .header h1 { font-size: 2.5em; margin-bottom: 10px; font-weight: 300; }
+        .header .subtitle { font-size: 1.1em; opacity: 0.9; margin-bottom: 20px; }
+        .last-updated {
+            background: rgba(255,255,255,0.1);
+            padding: 10px 20px;
+            border-radius: 25px;
+            display: inline-block;
             font-size: 0.9em;
-            color: #777;
         }
-        .app-icon {
-            display: block;
-            margin: 0 auto 20px;
-            max-width: 100px;
+        .content { padding: 40px; }
+        .section {
+            margin-bottom: 40px;
+            padding: 30px;
+            background: #f8f9fa;
+            border-radius: 15px;
+            border-left: 5px solid #3498db;
         }
-        .ad-partners {
-            background: #f0f8ff;
-            padding: 15px;
-            border-left: 4px solid #2980b9;
-            margin: 15px 0;
+        .section h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            display: flex;
+            align-items: center;
+            gap: 10px;
         }
-        .data-flow {
-            background: #e8f4fd;
+        .section h2::before { content: "•"; color: #3498db; font-size: 2em; }
+        .highlight-box, .premium-box, .firebase-box {
+            padding: 25px;
+            border-radius: 12px;
+            margin: 25px 0;
+            border-left: 5px solid;
+        }
+        .highlight-box { background: linear-gradient(135deg, #ffeaa7, #fab1a0); border-left-color: #e17055; }
+        .premium-box { background: linear-gradient(135deg, #00b894, #00cec9); color: white; border-left-color: #0984e3; }
+        .firebase-box { background: linear-gradient(135deg, #FFA000, #FF6F00); color: white; border-left-color: #FF4081; }
+        ul { list-style: none; padding-left: 0; }
+        li {
+            padding: 12px 0;
+            border-bottom: 1px solid #ecf0f1;
+            position: relative;
+            padding-left: 30px;
+        }
+        li::before { content: "▸"; color: #3498db; position: absolute; left: 0; font-weight: bold; }
+        a { color: #2980b9; text-decoration: none; transition: color 0.3s ease; border-bottom: 2px dotted #3498db; padding-bottom: 2px; }
+        a:hover { color: #e74c3c; border-bottom-style: solid; }
+        .contact-info {
+            background: linear-gradient(135deg, #74b9ff, #0984e3);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+        }
+        .contact-info a { color: white; border-bottom-color: white; font-weight: bold; }
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #2c3e50;
+            color: #bdc3c7;
+            font-size: 0.9em;
+        }
+        .website-link {
+            background: #e3f2fd;
             padding: 20px;
-            border-left: 4px solid #2196F3;
-            margin: 20px 0;
-            border-radius: 5px;
+            border-radius: 12px;
+            text-align: center;
+            margin: 30px 0;
+            border: 2px solid #bbdefb;
         }
-        .data-flow h3 {
-            color: #1976d2;
-            margin-top: 0;
+        .website-link a {
+            font-size: 1.2em;
+            color: #1e88e5;
+            font-weight: bold;
         }
-        .new-partner {
-            background-color: #e8f5e8;
-            border-left: 4px solid #4CAF50;
-            padding: 10px;
-            margin: 5px 0;
+        @media (max-width: 768px) {
+            .container { margin: 20px auto; border-radius: 15px; }
+            .header { padding: 30px 20px; }
+            .content { padding: 20px; }
+            .section { padding: 20px; }
         }
     </style>
 </head>
 <body>
-    <img src="https://raw.githubusercontent.com/JoashTech/web-private-policy/main/ic_holy_bible.png" alt="World English Bible Icon" class="app-icon">
-    <h1>Privacy Policy for World English Bible</h1>
-    <p><strong>Last Updated: November 7, 2025</strong></p>
+    <div class="container">
+        <div class="header">
+            <h1>📖 World English Bible Privacy Policy</h1>
+            <div class="subtitle">Transparent. Secure. User-Focused.</div>
+            <div class="last-updated">Last Updated: January 19, 2026</div>
+        </div>
+  <div class="container">
+
     <p>JoshTechApps ("we," "us," or "our") develops World English Bible ("the App"), a free, ad-supported application providing daily Bible verses, prayers, quizzes, and customization features. We are committed to protecting your privacy. This Privacy Policy explains how we share, use, and protect your information when you use the App.</p>
 
     <div class="data-flow">
@@ -196,8 +239,32 @@
     <h2>11. Contact Us</h2>
     <p>If you have questions or concerns about this Privacy Policy, or wish to exercise your data protection rights, please contact us at <a href="mailto:contactjoshtech@gmail.com">contactjoshtech@gmail.com</a>.</p>
 
-    <footer>
-        <p>This privacy policy has been updated to include specific references to Facebook Audience Network, Google AdMob, Unity Ads, Vungle (Liftoff), Firebase Analytics, and Firebase Crashlytics privacy information.</p>
-    </footer>
+ <!-- Added Website Link Section -->
+            <div class="website-link">
+                <p>Visit our official website for more apps, updates, and support:</p>
+                <a href="https://joshtechapps.netlify.app" target="_blank">
+                    View Our Website For More
+                </a>
+            </div>
+
+            <!-- Contact & Footer -->
+            <div class="contact-info">
+                <h2>💌 Contact Us</h2>
+                <p>Have questions about privacy, data practices, premium features, or Firebase services?</p>
+                <p><strong>Email:</strong> <a href="mailto:contactjoshtech@gmail.com">contactjoshtech@gmail.com</a></p>
+                <p><strong>Response Time:</strong> Typically within 2-3 business days</p>
+            </div>
+
+            <footer>
+                <p>© <span id="currentYear"></span> JoshTechApps. All rights reserved.</p>
+                <p>Made with love for meaningful spiritual connections.</p>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        // Automatically set current year (single year only)
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
